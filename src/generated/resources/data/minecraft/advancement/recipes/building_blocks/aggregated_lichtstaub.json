@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lichtstaub": {
+      "conditions": {
+        "items": [
+          {
+            "items": "loongnethergenesis:lichtstaub"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:aggregated_lichtstaub"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lichtstaub"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:aggregated_lichtstaub"
+    ]
+  }
+}

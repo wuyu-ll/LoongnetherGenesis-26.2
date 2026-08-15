@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": "minecraft:netherite_ingot"
+  },
+  "pattern": [
+    "x",
+    "x",
+    "x"
+  ],
+  "result": {
+    "id": "loongnethergenesis:alloy_handle"
+  }
+}

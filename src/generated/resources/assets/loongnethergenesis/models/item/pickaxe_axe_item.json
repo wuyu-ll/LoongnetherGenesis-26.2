@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "loongnethergenesis:item/pickaxe_axe_item"
+  }
+}

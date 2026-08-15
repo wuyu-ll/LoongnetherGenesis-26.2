@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "loongnethergenesis:block/ice_ether_block"
+    }
+  }
+}

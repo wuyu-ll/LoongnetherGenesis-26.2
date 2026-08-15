@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": "loongnethergenesis:opticalnano_ingot",
+    "y": "loongnethergenesis:alloy_handle"
+  },
+  "pattern": [
+    "xxx",
+    " y ",
+    " y "
+  ],
+  "result": {
+    "id": "loongnethergenesis:opticalnano_pickaxe"
+  }
+}
