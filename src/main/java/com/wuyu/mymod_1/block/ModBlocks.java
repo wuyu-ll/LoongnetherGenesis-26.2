@@ -25,6 +25,9 @@ public class ModBlocks {
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.STONE), true);
     public static final DeferredBlock<Block> AGGREGATED_LICHTSTAUB = registerBlock("aggregated_lichtstaub", Block::new,
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.CONCRETE.white()), true);
+    public static final DeferredBlock<Block> UNTERIRDISIER_LAND = registerBlock("unterirdisier_land", Block::new,
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_SOIL), true);
+
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> func, Supplier<BlockBehaviour.Properties> properties, boolean shouldRegisterItem) {

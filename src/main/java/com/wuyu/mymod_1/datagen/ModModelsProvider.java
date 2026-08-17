@@ -27,11 +27,16 @@ public class ModModelsProvider extends ModelProvider {
         itemModels.generateFlatItem(ModItems.COLD_NETHER_IRON.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.CARDBOARD.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.OPTICALNANO_INGOT.get(), ModelTemplates.FLAT_ITEM);
-        itemModels.generateFlatItem(ModItems.LICHTSTAUB.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.LICHTS_TAUB.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.GENESIS_SWORD_INTENT.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.ALLOY_HANDLE.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.QUANTUM_CORE.get(),  ModelTemplates.FLAT_ITEM);
-        itemModels.generateFlatItem(ModItems.LICHT_QUANT_HELMET.get(),  ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.DAMONEN_STAUB.get(),  ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.REINER_DAMON_STAUB.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.OPTICAL_QUANTUM_HELMET.get(),  ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.OPTICAL_QUANTUM_CHESTPLATE.get(),   ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.OPTICAL_QUANTUM_LEGGINGS.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.OPTICAL_QUANTUM_BOOTS.get(), ModelTemplates.FLAT_ITEM);
 
 
 
@@ -50,6 +55,7 @@ public class ModModelsProvider extends ModelProvider {
         blockModels.createTrivialCube(ModBlocks.COLD_NETHER_ORE.get());
         blockModels.createTrivialCube(ModBlocks.ICE_ETHER_ORE.get());
         blockModels.createTrivialCube(ModBlocks.AGGREGATED_LICHTSTAUB.get());
+        blockModels.createTrivialCube(ModBlocks.UNTERIRDISIER_LAND.get());
     }
 
     @Override

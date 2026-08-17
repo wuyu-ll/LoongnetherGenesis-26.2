@@ -36,7 +36,7 @@ public class ModRecipesProvider extends RecipeProvider {
 
         nineBlockStorageRecipes(RecipeCategory.MISC, ModItems.ICE_ETHER, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ICE_ETHER_BLOCK);
         nineBlockStorageRecipes(RecipeCategory.MISC, ModItems.RAW_ICE_ETHER, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RAW_ICE_ETHER_BLOCK);
-        nineBlockStorageRecipes(RecipeCategory.MISC, ModItems.LICHTSTAUB, RecipeCategory.BUILDING_BLOCKS, ModBlocks.AGGREGATED_LICHTSTAUB);
+        nineBlockStorageRecipes(RecipeCategory.MISC, ModItems.LICHTS_TAUB, RecipeCategory.BUILDING_BLOCKS, ModBlocks.AGGREGATED_LICHTSTAUB);
 
         shapeless(RecipeCategory.MISC, ModItems.CLOUD_CRYSTAL)
                 .requires(ModItems.ICE_ETHER)
@@ -59,7 +59,7 @@ public class ModRecipesProvider extends RecipeProvider {
                 .pattern(" y ")
                 .unlockedBy("has_opticalnano_ingot", has(ModItems.OPTICALNANO_AXE))
                 .save(output);
-        shaped(RecipeCategory.MISC, ModItems.OPTICALNANO_PICKAXE )
+        shaped(RecipeCategory.MISC, ModItems.OPTICALNANO_PICKAXE)
                 .define('x', ModItems.OPTICALNANO_INGOT)
                 .define('y', ModItems.ALLOY_HANDLE)
                 .pattern("xxx")
@@ -67,13 +67,21 @@ public class ModRecipesProvider extends RecipeProvider {
                 .pattern(" y ")
                 .unlockedBy("has_opticalnano_ingot", has(ModItems.OPTICALNANO_AXE))
                 .save(output);
-        shaped(RecipeCategory.MISC, ModItems.OPTICALNANO_SHOVEL )
+        shaped(RecipeCategory.MISC, ModItems.OPTICALNANO_SHOVEL)
                 .define('x', ModItems.OPTICALNANO_INGOT)
                 .define('y', ModItems.ALLOY_HANDLE)
                 .pattern(" x ")
                 .pattern(" y ")
                 .pattern(" y ")
                 .unlockedBy("has_opticalnano_ingot", has(ModItems.OPTICALNANO_AXE))
+                .save(output);
+        shaped(RecipeCategory.MISC, ModItems.REINER_DAMON_STAUB,8)
+                .define('x', ModItems.DAMONEN_STAUB)
+                .define('y', ModItems.CARDBOARD)
+                .pattern("xxx")
+                .pattern("xyx")
+                .pattern("xxx")
+                .unlockedBy("has_damonen_staub", has(ModItems.DAMONEN_STAUB))
                 .save(output);
 
     }

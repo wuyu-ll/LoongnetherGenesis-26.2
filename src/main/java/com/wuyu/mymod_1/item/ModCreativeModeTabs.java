@@ -22,11 +22,18 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ICE_ETHER);
                         output.accept(ModItems.RAW_ICE_ETHER);
-                        output.accept(ModItems.CARDBOARD);
-                        output.accept(ModItems.COLD_NETHER_IRON);
                         output.accept(ModItems.CLOUD_CRYSTAL);
+                        output.accept(ModItems.CARDBOARD);
+
+                        output.accept(ModItems.LICHTS_TAUB);
+                        output.accept(ModItems.DAMONEN_STAUB);
+                        output.accept(ModItems.REINER_DAMON_STAUB);
+
+                        output.accept(ModItems.COLD_NETHER_IRON);
                         output.accept(ModItems.OPTICALNANO_INGOT);
-                        output.accept(ModItems.LICHTSTAUB);
+
+
+
                         output.accept(ModItems.GENESIS_SWORD_INTENT);
                         output.accept(ModItems.QUANTUM_CORE);
                     }).build());
@@ -34,12 +41,18 @@ public class ModCreativeModeTabs {
             CREATIVE_MODE_TABs.register("long_tab2",() -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.long_tab2"))
                     .withTabsBefore(ModCreativeModeTabs.long_TAB.getId())
-                    .icon(() -> new ItemStack(ModItems.ICE_ETHER.get()))
+                    .icon(() -> new ItemStack(ModItems.ANGELIKA.get()))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ANGELIKA);
                         output.accept(ModItems.OPTICALNANO_PICKAXE);
                         output.accept(ModItems.OPTICALNANO_AXE);
                         output.accept(ModItems.OPTICALNANO_SHOVEL);
+
+
+                        output.accept(ModItems.OPTICAL_QUANTUM_HELMET);
+                        output.accept(ModItems.OPTICAL_QUANTUM_CHESTPLATE);
+                        output.accept(ModItems.OPTICAL_QUANTUM_LEGGINGS);
+                        output.accept(ModItems.OPTICAL_QUANTUM_BOOTS);
 
                         output.accept(ModItems.ALLOY_HANDLE);
                     }).build());
@@ -59,9 +72,15 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.ICE_ETHER_BLOCK);
                         output.accept(ModBlocks.RAW_ICE_ETHER_BLOCK);
+                        output.accept(ModBlocks.AGGREGATED_LICHTSTAUB);
+
+
                         output.accept(ModBlocks.ICE_ETHER_ORE);
                         output.accept(ModBlocks.COLD_NETHER_ORE);
-                        output.accept(ModBlocks.AGGREGATED_LICHTSTAUB);
+
+
+                        output.accept(ModBlocks.UNTERIRDISIER_LAND);
+
 
                     }).build());
     public  static void register(IEventBus eventBus) {

@@ -34,6 +34,7 @@ public class ModBlockLootTablesProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.ICE_ETHER_BLOCK.get());
         dropSelf(ModBlocks.RAW_ICE_ETHER_BLOCK.get());
         dropSelf(ModBlocks.AGGREGATED_LICHTSTAUB.get());
+        dropSelf(ModBlocks.UNTERIRDISIER_LAND.get());
         add(ModBlocks.ICE_ETHER_ORE.get(), createOreLikeDrops(ModBlocks.ICE_ETHER_ORE.get(), ModItems.RAW_ICE_ETHER.get()));
     }
 

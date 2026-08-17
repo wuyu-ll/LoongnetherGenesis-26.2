@@ -9,11 +9,13 @@ import net.minecraft.world.item.Item;
 public class ModItemTags {
     public static final TagKey<Item> COLD_NETHER_IRON_MA = bind ("cold_nether_iron_ma");
     public static final TagKey<Item> COLD_NETHER_IRON = bind ("cold_nether_iron");
-    public static final TagKey<Item> OPTICALNANO_INGOT = bind ("lichtnano_ingot");
-    public static final TagKey<Item> OPTICALNANO_INGOT_MA= bind ("lichtnano_ingot_ma");
+    public static final TagKey<Item> OPTICALNANO_INGOT_MA= bind ("opticalnano_ingot_ma");
     public static final TagKey<Item> ANGELIKA_MA = bind ("angelika_ma");
+    public static final TagKey<Item> OPTI_NANO_ARMOR_MA = bind ("opti_nano_armor_ma");
 
 
+    public static final TagKey<Item> OPTI_NANO_ARMOR = bind ("opti_nano_armor");
+    public static final TagKey<Item> OPTICALNANO_INGOT = bind ("opticalnano_ingot");
 
 
     private static TagKey<Item> bind(String name) {

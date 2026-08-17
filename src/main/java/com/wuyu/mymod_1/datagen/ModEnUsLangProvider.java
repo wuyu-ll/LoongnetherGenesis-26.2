@@ -19,9 +19,11 @@ public class ModEnUsLangProvider extends LanguageProvider {
         add(ModItems.COLD_NETHER_IRON.get(),  "Cold Nether Iron");
         add(ModItems.CARDBOARD.get(),   "Carbon Dioxide");
         add(ModItems.OPTICALNANO_INGOT.get(), "Opticalnano Ingot");
-        add(ModItems.LICHTSTAUB.get(),  "LichtStaub");
+        add(ModItems.LICHTS_TAUB.get(),  "LichtStaub");
         add(ModItems.GENESIS_SWORD_INTENT.get(),  "Genesis_sword Intent");
         add(ModItems.QUANTUM_CORE.get(),  "Quantum Core");
+        add(ModItems.DAMONEN_STAUB.get(),  "DaMonen Staub");
+        add(ModItems.REINER_DAMON_STAUB.get(),  "Reiner Damon Staub");
 
 
         add(ModItems.ALLOY_HANDLE.get(),  "Alloy Handle");
@@ -38,14 +40,21 @@ public class ModEnUsLangProvider extends LanguageProvider {
         add(ModItems.PICKAXE_AXE_ITEM2.get(),   "Pickaxe Axe 2");
 
 
+        add(ModItems.OPTICAL_QUANTUM_HELMET.get(),  "Optical Quantum Helmet");
+        add(ModItems.OPTICAL_QUANTUM_CHESTPLATE.get(),   "Optical Quantum Chestplate");
+        add(ModItems.OPTICAL_QUANTUM_LEGGINGS.get(),    "Optical Quantum Leggings");
+        add(ModItems.OPTICAL_QUANTUM_BOOTS.get(),  "Optical Quantum Boots");
+
+
         add(ModBlocks.ICE_ETHER_ORE.get(), "Ice Ether Ore");
         add(ModBlocks.COLD_NETHER_ORE.get(), "Cold Nether Ore");
         add(ModBlocks.ICE_ETHER_BLOCK.get(), "Ice Ether Block");
         add(ModBlocks.RAW_ICE_ETHER_BLOCK.get(), "Raw Ice Ether Block");
         add(ModBlocks.AGGREGATED_LICHTSTAUB.get(),  "Aggregated LichtStatub");
+        add(ModBlocks.UNTERIRDISIER_LAND.get(),   "Unterirdiiser Land");
 
         add("itemGroup.long_tab","LG-Genesis:Materials");
-        add("itemGroup.long_tab2","LG-Genesis:Tools");
+        add("itemGroup.long_tab2","LG-Genesis:Tools & Armor");
         add("itemGroup.long_tab3","LG-Genesis:Foods");
         add("itemGroup.long_tab4","LG-Genesis:Ore & Blocks");
     }
